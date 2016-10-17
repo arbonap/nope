@@ -75,6 +75,7 @@
   text-align: center;
   border-top: 2px solid #c7c7c7;
   padding-top: .4rem;
+  color: $black;
 
   @include media_larger_than_mobile {
     float: right;
@@ -85,9 +86,12 @@
   .icon-link-item {
     display: inline-block;
     margin-left: 5px;
+    color: $black;
   }
 
-  .icon-link { display: inline-block;
+  .icon-link {
+    color: $black;
+    display: inline-block;
 
     &:hover .icon path {
       fill: #333;

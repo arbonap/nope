@@ -7,7 +7,9 @@
 }
 
 html {
-  background: $white;
+  background: linear-gradient(to right, violet, lightblue), url("http://i1074.photobucket.com/albums/w401/Patricia_Arbona/greyfloral_2X_zpszvlnrvax.png");
+  background-attachment: fixed;
+  background-blend-mode: multiply;
 }
 
 body{
