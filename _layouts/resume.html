@@ -27,18 +27,40 @@
         </div>
 
         <div class="executive-summary" itemprop="description">
-          <p>A girl loves her fries🍟</p>
         </div>
 
         {% if site.resume_looking_for_work == 'yes' %}
-        <a href="mailto:{{ site.resume_contact_email }}" class="contact-button" itemprop="email">Contact me</a>
+        <div class="center">
+          <a href="mailto:{{ site.resume_contact_email }}" class="contact-button" itemprop="email">Contact me</a>
+        </div>
         {% elsif site.resume_looking_for_work == 'no' %}
         <a class="contact-button not-looking">I'm not looking for work right now.</a>
         {% else %}
         {% endif %}
 
       </header>
+      <!-- begin A little about myself -->
+      <section class="content-section">
 
+        <header class="section-header">
+          <h2>Hello! Welcome.</h2>
+        </header>
+
+        <div class="resume-item">
+          <p class="resume-item-copy">
+            I am a feminist Open Source developer who uses her creativity
+            and technical skills to create software
+            that improves the lives of others.
+            I have experience with legacy code, working with interlational, distributed-teams, and being
+            an independent self-starter under aggressive deadlines.
+            With my collaborative nature, I seek a team-oriented workplace
+            where we solve intriguing challenges together.
+
+          </p>
+        </div>
+
+      </section>
+      <!-- end Projects -->
       {% if site.resume_section_experience %}
       <!-- begin Experience -->
       <section class="content-section">
@@ -108,9 +130,9 @@
         </header>
 
         <div class="resume-item">
-          <h3 class="resume-item-title"><a href="http://donutlocator.io">donutfinder.io</a></h3>
-          <h4 class="resume-item-details">Founder & Primary Developer &bull; 2012 &mdash; Present</h4>
-          <p class="resume-item-copy">Donut Locator is an open source node/ember app that lets users find donuts within a defined radius from their home.</p>
+          <h3 class="resume-item-title"><a href="https://doubleunion.org">aroooo (A Room of One's Own)</a></h3>
+          <h4 class="resume-item-details">Contributor to aroo</h4>
+          <p class="resume-item-copy">arooo (A Room of One's Own) is Double Union's open-sourced member application app. </p>
         </div>
 
         <div class="resume-item">
@@ -191,7 +213,12 @@
         <div class="resume-item">
           <h3 class="resume-item-title"><a href="https://doubleunion.org">Double Union</a></h3>
           <h4 class="resume-item-details">Technical Member &bull; 2016 &mdash; Present</h4>
-          <p class="resume-item-copy">Contribute to Double Union's Open Source app, arooo (A Room of One's Own)</p>
+
+          <p class="resume-item-copy">
+          Double Union is a non-profit, women-centered, intersectional feminist hacker/maker
+           space and community workshop space.
+
+           As a technical member, I contribute to Double Union's Open Source app, <a href="https://doubleunion.tumblr.com/post/101099822404/meet-arooo-a-open-source-membership-management">arooo (A Room of One's Own)</a>.</p>
         </div>
 
         <div class="resume-item">
